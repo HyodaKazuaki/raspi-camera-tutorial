@@ -1,6 +1,6 @@
 import cv2
 
-def main(kernel=(5, 5)):
+def main():
     camera_stream = cv2.VideoCapture(0)
     hog = cv2.HOGDescriptor()
     hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
@@ -21,5 +21,4 @@ def main(kernel=(5, 5)):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    kernel = (41, 41)
     main(kernel=kernel)
