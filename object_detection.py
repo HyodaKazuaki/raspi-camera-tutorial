@@ -96,7 +96,7 @@ def main():
 
                     speed_info = '%s: %.3f' % ('fps', 1.0/elapsed_time)
                     cv2.putText(img, speed_info, (10,50), \
-                    cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1, cv2.LINE_AA)
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1, cv2.LINE_AA)
 
                     class_id = class_id % len(colors)
                     color = colors[class_id]
