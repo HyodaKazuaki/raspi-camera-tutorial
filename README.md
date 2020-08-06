@@ -22,7 +22,7 @@ $ source venv/bin/activate
 6. OpenCVに必要なソフトウェアをインストールする
 ```sh
 # なお、libqt4-devはheadlessの場合不要
-(venv) $ apt install livhdf5-dev libhdf5-serial-dev jibjasper-dev libqt4-dev libatlas-base-dev
+(venv) $ apt install libhdf5-dev libhdf5-serial-dev libjasper-dev libqt4-dev libatlas-base-dev
 ```
 7. 定義が通っていないライブラリを設定する。
 ```sh
